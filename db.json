@@ -1,0 +1,73 @@
+{
+  "blogs": [
+    {
+      "id": 2,
+      "title": "Mastering CSS Grid Layout",
+      "author": "codeninja",
+      "dateCreated": "22/03/2023",
+      "tags": [
+        "CSS",
+        "Layout",
+        "Web Development"
+      ],
+      "content": "Unlock the power of CSS Grid for modern web layouts. Learn key concepts and practical examples.",
+      "comments": [
+        {
+          "author": "user123",
+          "comment": "Insightful read"
+        },
+        {
+          "author": "dev456",
+          "comment": "Helped me a lot"
+        }
+      ],
+      "description": "Unlock the power of CSS Grid for modern web layouts with key concepts and practical examples. A guide by codeninja."
+    },
+    {
+      "id": 3,
+      "title": "Effective JavaScript Coding Techniques",
+      "author": "scriptwizard",
+      "dateCreated": "10/06/2023",
+      "tags": [
+        "JavaScript",
+        "Coding",
+        "Best Practices"
+      ],
+      "content": "Explore advanced JavaScript techniques to write cleaner, more efficient code. Boost your development skills.",
+      "comments": [
+        {
+          "author": "coder321",
+          "comment": "Great tips"
+        },
+        {
+          "author": "learnerXYZ",
+          "comment": "Very informative"
+        }
+      ],
+      "description": "Explore advanced JavaScript techniques to write cleaner, more efficient code and boost your development skills. Authored by scriptwizard."
+    },
+    {
+      "id": 4,
+      "title": "React Hooks Demystified",
+      "author": "reactguru",
+      "dateCreated": "05/09/2023",
+      "tags": [
+        "React",
+        "Hooks",
+        "Frontend"
+      ],
+      "content": "A concise guide to understanding and using React Hooks. Simplify your React component logic.",
+      "comments": [
+        {
+          "author": "frontend_dev",
+          "comment": "Clear explanation"
+        },
+        {
+          "author": "react_lover",
+          "comment": "Must-read for React devs"
+        }
+      ],
+      "description": "A concise guide by reactguru on understanding and using React Hooks to simplify your React component logic. A must-read for React devs."
+    }
+  ]
+}

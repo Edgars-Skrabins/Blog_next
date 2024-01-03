@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: var(--c-primary);
+    padding: 0 1rem;
+
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: var(--border-width);
+    border-color: var(--c-text-primary);
+}
+
+.websiteName {
+    color: var(--c-accent);
+    font-size: var(--fs-header-heading);
+    font-weight: bolder;
+    padding-right: 2rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-size: 0.8rem;
+    margin-left: 2rem;
+
+
+    width: 100%
+}
+
+.link {
+    font-size: var(--fs-header-link);
+    font-weight: bold;
+    font-family: var(--c-font);
+    padding: 1rem 0.6rem;
+    transition: var(--animation-transition-time);
+}
+
+.link:hover {
+    color: var(--c-accent);
+    background-color: var(--c-primary-bright);
+    font-size: var(--fs-header-link-hover);
+}
+
+.link:active {
+    color: var(--c-accent-bright);
+    background-color: var(--c-primary-brighter);
+    font-size: var(--fs-header-link-active);
+}
+
+.buttonWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: var(--c-btn-bg);
+    color: var(--c-btn-text);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border-style: solid;
+
+    border-radius: 100%;
+
+    aspect-ratio: 1/1;
+    min-height: 2.2rem;
+
+    margin: 0;
+    padding: 0;
+
+    transition: var(--animation-transition-time);
+}
+
+.button:hover {
+    background-color: var(--c-btn-bg-hover);
+    transform: rotate(-4deg) scale(1.08);
+}
+
+.button:active {
+    background-color: var(--c-btn-bg-active);
+    transform: rotate(4deg) scale(0.95);
+}
+
+.logo {
+    width: 32px;
+    margin-right: 0.4rem;
+}

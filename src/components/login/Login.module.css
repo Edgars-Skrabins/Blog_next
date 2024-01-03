@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--c-primary-bright);
+    border-radius: var(--br-btn);
+    padding: 2rem;
+    right: 0;
+    width: 25%;
+    height: 40%;
+    top: 0;
+    gap: 2rem;
+}

@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--c-secondary);
+    filter: drop-shadow(0 0 0.8rem rgba(0, 0, 0, 0.51));
+
+    border-radius: var(--border-radius);
+    gap: 1rem;
+    padding: 1.25rem;
+
+    color: var(--c-text-secondary);
+    min-width: 60%;
+
+    margin: 2rem 0;
+}
+
+.nameInput {
+    padding: var(--p-input);
+}
+
+.commentInput {
+    padding: var(--p-input);
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.submitBtn {
+    color: var(--c-accent);
+}
